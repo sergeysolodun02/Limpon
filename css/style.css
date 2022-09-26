@@ -109,3 +109,54 @@ h1 {
 .page-software dt {
 	font-weight: bold;
 }
+
+.page-stat_facts h2 {
+	font-size: 50px;
+	font-weight: 600;
+	color: #192b59;
+}
+
+.page-stat_facts h2 span {
+	font-size: 16px;
+	font-weight: 700;
+	color: #1085e4;
+	display: block;
+}
+
+ .page-app_wraper p span {
+	font-size: 16px;
+	color: #c4d2dd;
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	display: block;
+}
+.page-analytics_text button {
+	font-size: 12px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #1085e4;
+	border: 0px;
+}
+
+.page-analytics2_text button {
+	font-size: 12px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #1085e4;
+	border: 0px;
+}
+
+.page-screen_hd h2 {
+	font-size: 40px;
+	font-weight: 600;
+	color: #192b59;
+}
+
+.page-screen_hd h2 span {
+	font-size: 18px;
+	font-weight: 800;
+	color: #1085e4;
+	text-transform: uppercase;
+	display: block;
+}
