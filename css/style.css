@@ -16,6 +16,20 @@ h1 {
 	color: #192b59;
 }
 
+.header {
+	width: 100%;
+	max-width: 1112px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 54px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+
+}
+
 .nav {
 	font-size: 12px;
 	font-weight: 700;
@@ -24,8 +38,14 @@ h1 {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	
+	display: flex;
+	justify-content: flex-start;
 }
+
+.nav li {
+	margin-left: 42px;
+}
+
 
 .btn-primery {
 	color: #fff;
