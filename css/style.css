@@ -16,8 +16,7 @@ h1 {
     letter-spacing: -2.5px;
     color: #192b59;
     max-width: 540px;
-    margin-left: -18px;
-    margin-bottom: 65px;
+    margin: 0 0 -6px -8px;
 }
 
 .title-h2 {
@@ -90,7 +89,7 @@ h1 {
 	width: 100%;
 	max-width: 1110px;
 	margin: 0 auto;
-	padding-left: 15px;
+	padding-left: 31px;
 	padding-right: 15px;
 	padding-top: 54px;
 	display: flex;
@@ -111,7 +110,7 @@ h1 {
 	text-transform: uppercase;
 	list-style-type: none;
 	letter-spacing: 1.8px;
-	margin: 0;
+	margin: 0 -5px;
 	padding: 0;
 	display: flex;
 	justify-content: flex-start;
@@ -123,23 +122,9 @@ h1 {
 }
 .nav_link {
 	color: #6e7ea9;
-	padding-right: 5px;
+	padding-right: 1px;
 }
-.nav_link-home {
-	margin-right: -5px;
-}
-.nav_link-features {
-	margin-right: -3px;
-}
-.nav_link-video {
-	margin-right: -4px;
-}
-.nav_link-screens {
-	margin-right: -3px;
-}
-.nav_link-pricing {
-	margin-right: -2px;
-}
+
 .nav_link-team {
 	margin-right: 8px;
 }
@@ -155,13 +140,14 @@ h1 {
 	height: 742px;
 	position: absolute;
 	right: 0;
-	top: 190px;
+	left: 920px;
+    top: 187px;
 }
 
 .btn-primery {
 	color: #fff;
     font-size: 12px;
-    letter-spacing: 1.9px;
+	letter-spacing: 1.9px;
     font-weight: 700;
     text-transform: uppercase;
     background-color: #1085e4;
@@ -195,23 +181,27 @@ h1 {
 .btn-free {
 	font-weight: 400;
 	color: #fff;
-	padding: 20px 57px;
+	padding: 20px 55px;
 	letter-spacing: 1.2px;
+	margin: 0 -8px;
 }
 
-.btn-group a + a {
+.btn-group {
+	margin: 70px 0 0 14px;
+}
+
+.btn-group a+a {
 	margin-left: 15px;
 }
 
 .list-company {
-	margin: 0;
-	padding: 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	list-style-type: none;
 	max-width: 1110px;
-	margin: 0 auto;
+	margin: -13px auto 13px auto;
+    padding: 0px 28px 1px 0;
 }
 
 .company-one {
@@ -235,24 +225,24 @@ h1 {
 	height: 69px;
 }
 
-.list-company .list-company-item {
-	margin-bottom: 15px;
-}
 
 .grid {
 	display: grid;
-	grid-template-areas: "a b c"
+	grid-template-areas:"a b c"
 	                    "d b c"
 	                    "d f g"
 	                    "e f g"
 	                    "e h h";
  	max-width: 1110px;
- 	margin: 0 auto;              
+ 	margin: 120px 0 0 268px;
+ 	grid-gap: 30px;
+
+ 	
 }
 
 .grid-title {
 	grid-area: a;
-}
+}	
 
 .grid-item1 {
 	grid-area: b;
@@ -287,19 +277,33 @@ h1 {
 	line-height: 50px;
 	color: #192b59;
 	font-weight: 700;
+	letter-spacing: -1px;
 }
 
 .grid h2 span {
 	font-size: 14px;
 	font-weight: 800;
+	letter-spacing: 2.6px;
 	color: #1085e4;
 	display: block;
+	margin: -52px 0 -2px 2px;
 }
+
 
 .grid-item1 {
 	width: 350px;
 	height: 395px;
 	border-radius: 8px;
+}
+.grid-item1 h3 {
+	margin: -16px 0px 0px 3px;
+    letter-spacing: -0.7px;
+}
+.grid-item1 p {
+	margin: 0px 0px 17px 13px;
+}
+.grid-item1 a {
+	margin-left: 5px;
 }
 
 .grid-item2 {
@@ -307,17 +311,51 @@ h1 {
 	height: 395px;
 	border-radius: 8px;
 }
+.grid-item2 h3 {
+	margin: 40px 0px 0px 3px;
+    letter-spacing: -0.7px;
+}
+.grid-item2 p {
+	margin: 0px 0px 17px 13px;
+}
+.grid-item2 a {
+	margin-left: 5px;
+}
 
 .grid-item3 {
 	width: 350px;
 	height: 395px;
 	border-radius: 8px;
+	margin: -17px 1px 1px 1px;
+}
+.grid-item3 h3 {
+	margin: 34px 0px 0px 3px;
+    letter-spacing: -0.7px;
+}
+.grid-item3 p {
+	margin: 0px 2px 15px 11px;
+    letter-spacing: 0.2px;
+}
+.grid-item3 a {
+	margin-left: 5px;
 }
 
 .grid-item4 {
 	width: 350px;
 	height: 395px;
 	border-radius: 8px;
+	margin: -39px 1px 1px 0px;
+}
+.grid-item4 h3 {
+	margin: 34px 0px 0px 3px;
+    letter-spacing: -0.7px;
+}
+.grid-item4 p {
+	margin: 0px 2px 15px 11px;
+    letter-spacing: 0.2px;
+}
+.grid-item4 a {
+	margin-left: 5px;
 }
 
 .grid-item5 {
@@ -325,11 +363,33 @@ h1 {
 	height: 395px;
 	border-radius: 8px;
 }
+.grid-item5 h3 {
+	margin: 34px 0px 0px 3px;
+    letter-spacing: -0.7px;
+}
+.grid-item5 p {
+	margin: 0px 2px 15px 11px;
+    letter-spacing: 0.2px;
+}
+.grid-item5 a {
+	margin-left: 5px;
+}
 
 .grid-item6 {
 	width: 350px;
 	height: 395px;
 	border-radius: 8px;
+}
+.grid-item6 h3 {
+	margin: 34px 0px 0px 3px;
+    letter-spacing: -0.7px;
+}
+.grid-item6 p {
+	margin: 0px 2px 15px 11px;
+    letter-spacing: 0.2px;
+}
+.grid-item6 a {
+	margin-left: 5px;
 }
 
 .grid-item h3 {
@@ -347,50 +407,56 @@ h1 {
 
 .grid-item {
 	text-align: center;
-	box-shadow: 10px 10px 10px #f4f4f4;
+	box-shadow: 10px 10px 10px 10px #f4f4f4;
+	
 }
 
 .grid-icon {
 	background-repeat: no-repeat;
 	display: block;
-	margin: 0 auto 36px;
+	margin: 62px auto 36px;
 }
 
 .grid-icon1 {
 	background-image: url(../img/icon-2.png);
 	width: 79px;
 	height: 82px;
-
+	margin-left: 151px;
 }
 
 .grid-icon2 {
 	background-image: url(../img/icon-3.png);
 	width: 73px;
 	height: 79px;
+	margin: 45px 0 0 145px;
 }
 
 .grid-icon3 {
 	background-image: url(../img/icon-1.png);
 	width: 89px;
 	height: 85px;
+	margin: 51px 0 0 137px;
 }
 
 .grid-icon4 {
 	background-image: url(../img/icon-4.png);
 	width: 102px;
 	height: 92px;
+	margin: 44px 1px 1px 146px;
 }
 
 .grid-icon5 {
 	background-image: url(../img/icon-5.png);
 	width: 85px;
 	height: 90px;
+	margin: 37px 1px 1px 142px;
 }
 
 .grid-icon6 {
 	background-image: url(../img/icon-6.png);
 	width: 100px;
 	height: 87px;
+	margin: 41px 1px 1px 129px;
 }
 
 .grid-item p {
@@ -399,15 +465,21 @@ h1 {
 	color: #7581a1;
 }
 
+
 .page-grid_down p {
 	font-size: 16px;
 	font-weight: 400;
 	color: #7581a1;
+	margin: 1px 1px 4px 22px;
 }
 
 .page-grid_down p span {
+	font-size: 16px;
 	font-weight: 700;
 	color: black;
+}
+.grid-text p+p {
+	font-size: 14px;
 }
 
 
@@ -415,6 +487,7 @@ h1 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin: 0 auto 0 auto;
 }
 
 .page-subscribe .title-h2 span {
@@ -715,7 +788,8 @@ h1 {
 .page-header {
 	background-image: url(../img/header_bg.png);
     background-repeat: no-repeat;
-    padding: 0 0 311px 0;
+    padding: 0 0 326px 0;
+    margin: 0 0 0 -27px;
     position: relative;
 }
 
@@ -723,7 +797,7 @@ h1 {
 	background-image: url(../img/sponsors_bg.png);
     background-repeat: no-repeat;
     padding: 121px 0 87px;
-    margin-top: 15px;
+    
 }	
 
 .page-stat, .page-screen {
@@ -740,7 +814,7 @@ h1 {
 }
 
 .page-subscribe {
-	margin-top: 286px;
+	margin-top: 119px;
     padding: 30px 0 68px 0;
 	color: #fff;
 	background: rgba(10,32,144,1);
